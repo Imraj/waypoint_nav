@@ -1,4 +1,4 @@
-# waypoint_nav + RNN estimation of pos and vel in the absence of GPS signal
+# waypoint_nav w/t RNN estimation of pos and vel in the absence of GPS signal
 
 This package performs outdoor GPS waypoint navigation. It can navigate while building a map, avoiding obstacles, and can navigate continuously between each goal or stop at each goal. 
 
