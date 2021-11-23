@@ -2,6 +2,14 @@
 
 GPS-Denied Navigation Using Low-Cost Inertial Sensors and Recurrent Neural Networks (https://arxiv.org/abs/2109.04861)
 
+![Altitude prediction from Gyro measurements in the EKF2 prediction step](https://github.com/Imraj/waypoint_nav/blob/master/rnn_estimation/ekf1.PNG)
+
+![Vel and Pos prediction from altitude and Accelerometer measurements in the EKF2 prediction step](https://github.com/Imraj/waypoint_nav/blob/master/rnn_estimation/ekf2.PNG)
+
+![EKF Prediction-Correction Architecture](https://github.com/Imraj/waypoint_nav/blob/master/rnn_estimation/ekf3.PNG)
+
+![NN-Based Estimator](https://github.com/Imraj/waypoint_nav/blob/master/rnn_estimation/ekf4.PNG)
+
 =====================================================================================================================
 
 This package performs outdoor GPS waypoint navigation. It can navigate while building a map, avoiding obstacles, and can navigate continuously between each goal or stop at each goal. 
